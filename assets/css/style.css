@@ -1,0 +1,50 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    color: #606060;
+  }
+  
+  .logo {
+    width: 140px;
+  }
+
+  .nav-bg-red {
+    background-color: #ca0010;
+    opacity: 0.9;
+    color: white;
+  }
+
+.bg-line {
+    background-color: #606060;
+}
+
+  .bg-color-icon {
+    background-color: #004CFF;
+  }
+
+  .icon-color {
+    color: white !important;
+  }
+
+  .bg-color-icon2 {
+      background-color: #ca0010;
+  }
+
+  .bg-color-icon3 {
+      background-color: #069330;
+  }
+
+  .bg-red {
+      background-color: #ca0010;
+  }
+
+
+  footer {
+      background-color: #ca0010;
+  }
