@@ -20,16 +20,22 @@ html {
     color: white;
   }
 
-.bg-line {
-    background-color: #606060;
-}
+/*color para la línea divisora entre las secciones*/
 
-  .bg-color-icon {
-    background-color: #004CFF;
+  .bg-line {
+    background-color: #606060;
   }
+  
+
+  /*propiedades iconos*/
+  /*Quise formar la expresión de "I Love videogames"*/
 
   .icon-color {
     color: white !important;
+  }
+
+  .bg-color-icon {
+    background-color: #004CFF;
   }
 
   .bg-color-icon2 {
@@ -40,6 +46,10 @@ html {
       background-color: #069330;
   }
 
+
+
+
+
   .bg-red {
       background-color: #ca0010;
   }
@@ -48,3 +58,26 @@ html {
   footer {
       background-color: #ca0010;
   }
+
+
+/* codigo googleado para cambiar el color de fondo de los tooltips*/
+
+.tooltip-inner {
+    background-color: #069330;
+    box-shadow: 0px 0px 4px black;
+    opacity: 1 !important;
+}
+
+.tooltip.bs-tooltip-right .tooltip-arrow::before {
+    border-right-color: #069330 !important;
+}
+
+.tooltip.bs-tooltip-left .tooltip-arrow::before {
+    border-left-color: #069330 !important;
+}
+.tooltip.bs-tooltip-bottom .tooltip-arrow::before {
+    border-bottom-color: #069330 !important;
+}
+.tooltip.bs-tooltip-top .tooltip-arrow::before {
+    border-top-color: #069330 !important;
+}
