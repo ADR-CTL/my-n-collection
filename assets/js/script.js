@@ -7,3 +7,7 @@ $(function () {
   
     y > 300 ? $("nav").addClass("nav-bg-red") : $("nav").removeClass("nav-bg-red");
   });
+
+  $("#enviarmail").click(function () {
+    alert("Correo enviado exitosamente. ¡Gracias Gamer!");
+  });
